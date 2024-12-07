@@ -4,9 +4,9 @@ Final Project - Team X
 You can flexibly change this Readme.md file according to your needs.
 Team members:
 
-Member 1
-Member 2
-Member 3
+Ryan Raad
+Robert Tkaczyk
+Emma Halferty
 
 
 Demo:
