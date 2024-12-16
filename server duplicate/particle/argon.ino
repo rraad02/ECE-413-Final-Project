@@ -59,6 +59,8 @@ void setup() {
 
 void loop() {
     if (isWithinActiveHours()) {
+        /* this is our state machine to check if our user has given a measurement in the last measurement time period (30 mins default)
+        and reminds them if they haven't */
         switch (currentState) {
             case IDLE:
                 if (millis() - lastReminderTime >= LED_REMINDER_INTERVAL && millis() - lastMeasurementTime >= MEASUREMENT_COOLDOWN) {
