@@ -18,12 +18,17 @@ An IoT device equipped with heart rate and oxygen sensors periodically reminds u
 - Ryan Raad
 - Robert Tkaczyk
 - Emma Halferty
+> **Note**: When we were debugging we had to dump our database, so there is only data from 12/16/2024.
 
 ---
 
 ### Demo
 - **Demo URL**: [ec2-18-206-205-37.compute-1.amazonaws.com:3000](http://ec2-18-206-205-37.compute-1.amazonaws.com:3000)
-- **Test Information**: **FIX ME** *(Add Password/User Info)*
+- **Test Information**:
+- User name: tester@gmail.com
+- Password: Test12345
+> **Note**: When we were debugging we had to dump our database, so there is only data from 12/16/2024.
+
 
 ---
 
