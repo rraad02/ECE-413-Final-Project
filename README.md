@@ -1,6 +1,6 @@
 # University of Arizona Fall 2024 ECE413
 
-## Final Project - Team X
+## Final Project - Team 1
 
 ### Project Description
 The **Heart Track** application is a cost-effective, IoT-enabled web app designed for continuous monitoring of heart rate and blood oxygen saturation levels. Measurements are taken at intervals specified by the user or physician.
