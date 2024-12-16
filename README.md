@@ -1,159 +1,47 @@
-University of Arizona [2024 Fall ECE413/513]
-Final Project - Team X
-[Please briefly state the function and purpose of this Git Repo]
-You can flexibly change this Readme.md file according to your needs.
-Team members:
+# University of Arizona 2024 Fall  
+## ECE413 Final Project - Team X  
 
-Ryan Raad
-Robert Tkaczyk
-Emma Halferty
+---
 
+## **Project Description**  
+The Heart Track application is a cost-effective, IoT-enabled web app designed for continuous monitoring of heart rate and blood oxygen saturation levels. Measurements are taken at intervals specified by the user or physician.  
 
-Demo:
+An IoT device equipped with heart rate and oxygen sensors periodically reminds users to record their measurements. These measurements are then transmitted to a web application where users or physicians can easily access and analyze the data.  
 
-Demo URL: [Provide your project link running on AWS.]
-Test Infomation: [Please provide the test account information and the info about how to update device value.]
+### **Key Features**  
+- **Configurable Measurement Schedule**: Users or physicians can define the time of day and frequency for measurements.  
+- **Seamless Monitoring**: The web app provides a clear and intuitive interface for tracking heart rate and blood oxygen saturation levels.  
+- **Responsive Design**: The application is optimized for desktop, tablet, and mobile devices, ensuring a smooth user experience across platforms.  
 
+---
 
-Videos:
+## **Team Members**  
+- Ryan Raad  
+- Robert Tkaczyk  
+- Emma Halferty  
 
-Pitch Video: [PROVIDE YOUR YOUTUBE VIDEO LINK HERE]
-User Experience: [PROVIDE YOUR YOUTUBE VIDEO LINK HERE]
-Code Implements: [PROVIDE YOUR YOUTUBE VIDEO LINK HERE]
+---
 
+## **Demo**  
+- **Demo URL**: [ec2-18-206-205-37.compute-1.amazonaws.com:3000](http://ec2-18-206-205-37.compute-1.amazonaws.com:3000)  
+- **Test Information**: *FIX ME: Add username and password information.*  
 
-Get Start
-Example how to install and launch your project.
+---
 
-Command Block 1 Example
+## **Videos**  
+- **Pitch Video**: [https://youtu.be/ZERyI-n4N8k](https://youtu.be/ZERyI-n4N8k)  
+- **User Experience**: *[Provide your YouTube video link here]*  
+- **Code Implementation**: *[Provide your YouTube video link here]*  
 
+---
 
-Explain each command and what it is used for.
+## **How to Run the Project**  
 
-Command Block 2 Example
-
-
-
-Require Modules
-Please fill in all the modules you use in the project and make them hyperlinked and describe it.
-
-
-
-Module
-Description
-
-
-
-
-Module 1
-...
-
-
-Module 2
-...
-
-
-Module 3
-...
-
-
-Module 4
-...
-
-
-Module 5
-...
-
-
-Module 6
-...
-
-
-Module 7
-...
-
-
-
-
-APIs
-
-API Class 1 – Route: /Route1/*
-
-
-
-
-APIs
-Description
-HTTP Method
-
-
-
-
-API_1
-Description 1
-GET
-
-
-API_2
-Description 1
-POST
-
-
-API_3
-Description 1
-GET
-
-
-API_4
-Description 1
-POST
-
-
-...
-...
-...
-
-
-
-
-API Class 2 – Route: /Route2/*
-
-......
-
-API Class 3 – Route: /Route3/*
-
-......
-
-Project file structure description
-
-Please use .gitignore to exclude the "node_module" folder and other unnecessary files to keep the Project clean.
-Please include your package.json and package-lock.json files so that others can install dependent modules through these two files when they download your Project.
-
-
-
-
-Folder
-Description
-Note
-
-
-
-
-Folder 1
-Description 1
-Note 1
-
-
-Folder 2
-Description 2
-Note 2
-
-
-Folder 3
-Description 3
-Note 3
-
-
-Folder 4
-Description 4
-Note 4
+### **1. Running on localhost**  
+**Steps to set up and run the project locally:**  
+1. **Download Files**: Download the zipped project files and extract them to a directory of your choice.  
+2. **Install Visual Studio Code**: If you don’t already have Visual Studio Code installed, download and install it.  
+3. **Open the Project**: Launch Visual Studio Code, go to **File > Open Folder**, and select the folder where you extracted the project files.  
+4. **Install Node Modules**: Open a new terminal in Visual Studio Code and run:  
+   ```bash
+   npm install
