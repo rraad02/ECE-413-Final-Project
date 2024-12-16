@@ -18,7 +18,6 @@ An IoT device equipped with heart rate and oxygen sensors periodically reminds u
 - Ryan Raad
 - Robert Tkaczyk
 - Emma Halferty
-> **Note**: When we were debugging we had to dump our database, so there is only data from 12/16/2024.
 
 ---
 
