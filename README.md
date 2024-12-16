@@ -1,4 +1,4 @@
-# University of Arizona 2024 Fall  
+# University of Arizona Fall 2024  
 ## ECE413 Final Project - Team X  
 
 ---
