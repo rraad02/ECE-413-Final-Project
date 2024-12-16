@@ -107,8 +107,8 @@ void loop() {
 
     // Publish data to ThingSpeak every 10 seconds
     if (millis() - lastPublishTime >= PUBLISH_INTERVAL) {
-        if (spo2 > 0) {
-            String data = String::format("{\"spo2\": \"%d\", \"bpm\": \"%d\"}", spo2, heartRate);
+        if (spo2 > 0 && heartRate > 0) {//basic filters for data
+            String data = String::format("{\"spo2\": \"%d\", \"bpm\": \"%d\"}", spo2, heartRate); //formatting data to upload to ThingSpeak
             bool success = Particle.publish("bpm_server", data, PRIVATE);
 
             if (success) {
@@ -130,7 +130,8 @@ void loop() {
 
 bool isWithinActiveHours() {
     int currentHour = Time.hour(); // Directly get the current hour
-    return currentHour >= START_HOUR && currentHour < END_HOUR;
+    return currentHour >= START_HOUR && currentHour < END_HOUR; // 6am-10pm AZ time
+    Serial.println("is within time");
 }
 
 void setBuiltInLEDColor(uint8_t red, uint8_t green, uint8_t blue) {
