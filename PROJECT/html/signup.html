@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign up</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="javascripts/signup.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+          <ul>
+              
+            <li><a href="index.html">Team Info</a></li>
+            <li><a href="references.html">References</a></li>
+            <li id="login"><a href="login.html">Login</a></li>
+            <li><a href = "signup.html">Signup</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li hidden id="Account"><a href="account.html">Account</a></li>
+
+              
+          </ul>
+      </nav>
+  </header>
+      <br/>
+      <h1>Sign Up</h1>
+      <br/>
+      <div>
+        <div>
+          <label for="username">Username: </label>
+          <input type="text" id="username" placeholder="Enter username" name="username">
+        </div>
+        <div>
+          <label for="password">Password: </label>
+          <input type="password" id="password" placeholder="Enter password" name="password">
+        </div>
+        <br/>
+        <button id="btnSignUp">SignUp</button>
+      </div>
+      <p>Password must contain:</p>
+      <ul>
+      <li>A lowercase letter</li>
+      <li>A capital(uppercase) letter</li>
+      <li>A number</li>
+      <li>Minimum 8 characters</li>
+      </ul>
+      <div id="signupmessage">
+
+      </div>
+    
+  </body>
+</html>

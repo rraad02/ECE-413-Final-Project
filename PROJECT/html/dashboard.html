@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="javascripts/dashboard.js"></script>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+<body>
+    
+        <nav class="navbar">
+            <ul>
+                
+                <li><a href="index.html">Team Info</a></li>
+                <li><a href="references.html">References</a></li>
+                <li id="login"><a href="login.html">Login</a></li>
+                <li><a href = "signup.html">Signup</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li hidden id="Account"><a href="account.html">Account</a></li>
+                
+            </ul>
+        </nav>
+
+        <div id = fetchdatamessage>
+
+        </div>
+
+        <div>
+            <h3>IoT Range & Frequency:</h3>
+            <div>
+                <label for="timerange">Time Range: </label>
+                <input type="text" id="timerange" placeholder="Enter time range" name="timerange">
+              </div>
+              <div>
+                <label for="frequency">Frequency: </label>
+                <input type="frequency" id="frequency" placeholder="Enter frequency" name="frequency">
+        </div>
+
+        </div>
+
+        <h2>Weekly Data:</h2>
+        <p id = average></p>
+        <p id = minimum></p>
+        <p id = maximum></p>
+
+
+    <div>
+        <h2>Daily Data:</h2>
+        <div>
+            <label for="date">Date: </label>
+            <input type="date" id="date" placeholder="Enter date" name="date">
+          </div>
+          <br/>
+          <button id="getdaily">Show Graphs</button>
+          <div style="width: 70%; margin: 0 auto;">
+            <canvas id="hrChart"></canvas>
+          </div>
+          <div style="width: 70%; margin: 0 auto;">
+            <canvas id="boChart"></canvas>
+          </div>
+          
+    
+</body>
+</html>
