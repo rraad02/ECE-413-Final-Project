@@ -33,7 +33,7 @@ An IoT device equipped with heart rate and oxygen sensors periodically reminds u
 
 ### Videos:
 - **Pitch Video**: [https://youtu.be/ZERyI-n4N8k](https://youtu.be/ZERyI-n4N8k)
-- **Project Video**: *[PROVIDE YOUR YOUTUBE VIDEO LINK HERE]*
+- **Project Video**: [https://youtu.be/4J8y6vbVQkU](https://youtu.be/4J8y6vbVQkU)
 
 ---
 
